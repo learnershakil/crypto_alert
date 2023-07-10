@@ -1,4 +1,3 @@
-```markdown
 # Crypto Alert
 
 <p align="center">
