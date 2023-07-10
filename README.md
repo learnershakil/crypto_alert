@@ -72,5 +72,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Chart.js: https://www.chartjs.org/
 - FontAwesome: https://fontawesome.com/
-
-```
