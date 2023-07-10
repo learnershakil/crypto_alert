@@ -1,7 +1,7 @@
 # Crypto Alert
 
 <p align="center">
-  <img src="img\crypto-alert.png" alt="Crypto Alert Logo">
+  <img src="img\light.png" alt="Crypto Alert Logo">
 </p>
 
 Crypto Alert is a sleek and intuitive web application that allows users to track cryptocurrency prices in real-time and set price threshold Alert. This application is built using HTML, CSS, and JavaScript, and it utilizes the Binance API for retrieving real-time price data.
@@ -17,7 +17,7 @@ Crypto Alert is a sleek and intuitive web application that allows users to track
 ## Screenshots
 
 <p align="center">
-  <img src="img\crypto-alert-dark.png" alt="Crypto Alert">
+  <img src="img\dark.png" alt="Crypto Alert">
 </p>
 
 ## Getting Started
