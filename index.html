@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crypto Price Alarm</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Crypto Price Alarm</a>
+            <div id="balanceContainer">
+                <span id="balance">Loading...</span>
+            </div>
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Crypto Price Alarm</h1>
+        <div class="form">
+            <label for="apiKey">API Key:</label>
+            <input type="password" id="apiKey" placeholder="Enter your API key">
+            <label for="symbol">Cryptocurrency Symbol:</label>
+            <input type="text" id="symbol" placeholder="Enter symbol (e.g., BTCUSDT)">
+            <label for="threshold">Price Threshold:</label>
+            <input type="number" id="threshold" placeholder="Enter threshold price">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+        <div class="output">
+            <h3>Current Price:</h3>
+            <p id="price">-</p>
+            <h3>Alarm Status:</h3>
+            <p id="alarmStatus">Not triggered</p>
+        </div>
+        <div class="attribution">
+            <p>&copy; 2023 Shakil Ahmad</p>
+            <div class="social-media-icons">
+                <a href="https://www.linkedin.com/in/learnershakil/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/learnershakil"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/_mr.learner_/"><i class="fab fa-instagram"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
